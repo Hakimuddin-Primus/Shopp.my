@@ -1,0 +1,334 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+body {
+	font: bold 11px/1.5em Verdana;
+	}
+
+.navbar{
+	display: flex;
+	align-items: center;
+	padding: 20;
+}
+
+.container{
+	background: radial-gradient(#9191f0,#ffffff);
+	max-width: 1300px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.row{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	font-style: italic;
+	font-family: 'Lora',serif;
+}
+	
+.col-2{
+	flex-basis: 50%;
+	min-width: 300px;
+}	
+.col-2 img{
+	max-width: 100%;
+	padding: 50px 0;
+}
+.col-2 h1{
+	font-size: 50px;
+	line-height: 60px;
+	margin: 25px 0;
+}
+
+.btn{
+	 font-family: cursive;;
+	display: inline-block;
+	background: #ff523b;
+	color: #fff;
+	padding: 8px 30px;
+	margin: 30px;
+	border-radius: 30px;
+	text-decoration: none;
+	transition: background 0.5s;
+}
+.col-2 a:hover{
+	background: #563434;
+}
+
+#tabs {
+	float:left;
+	width:100%;
+	background:#E3ECF3;
+	font-size:93%;
+	line-height:normal;
+	}
+
+#tabs ul {
+	margin:0;
+	padding:10px 10px 0 50px;
+	list-style:none;
+	}
+#tabs img{
+	margin-left: 600px;
+}	
+
+#tabs li {
+	display:inline;
+	margin:0;
+	padding:0;
+	}
+
+#tabs a {
+	float:left;
+	background:url("C:/Users/Hakim/Desktop/tableft.gif") no-repeat left top;
+	margin:0;
+	padding:0 0 0 4px;
+	text-decoration:none;
+	}
+
+#tabs a span {
+	float:left;
+	display:block;
+	background:url("C:/Users/Hakim/Desktop/tabright.gif") no-repeat right top;
+	padding:5px 15px 4px 6px;
+	color:#FFF;
+	}
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#tabs a span {float:none;}
+
+/* End IE5-Mac hack */
+#tabs a:hover span {
+	color:#FFF;
+	}
+
+#tabs a:hover {
+	background-position:0% -42px;
+	}
+
+#tabs a:hover span {
+	background-position:100% -42px;
+	} 
+
+	.category{
+		margin: 70px 0;
+	}
+	.col-3{
+		flex-basis: 30%;
+		min-width: 250px;
+		margin-bottom: 30px;
+	}
+	.col-3 img{
+		width: 100%;
+	}
+
+
+	.small-container{
+		margin: auto;
+		max-width: 1080px;
+
+		
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	.col-4{
+		flex-basis: 25%;
+		padding: 10px;
+		min-width: 200px;
+		margin-bottom: 50px;
+		transition: transform 0.5s;
+	}
+	.col-4 img{
+		width: 100%;
+	}
+
+	.title{
+		font-style: oblique;
+		text-align: center;
+		margin: 0 auto 80px;
+		position: relative;
+		line-height: 50px;
+		color: #555;
+	}
+
+    .title:after {
+  background-color: #555;
+  content: "";
+  display: inline-block;
+
+  position: relative;
+
+  width: 100px;
+  height: 5px;
+}
+
+    .title:before {
+  background-color: #555;
+  content: "";
+  display: inline-block;
+
+  position: relative;
+
+  width: 100px;
+  height: 5px;
+}
+
+.tit{
+		font-family: cursive;
+	
+		margin: 0 auto 80px;
+		position: relative;
+		line-height: 50px;
+		font-size: 30px;
+		font-weight: 600;
+	}
+
+h4{
+	color: #555;
+	font-weight: normal;
+}
+
+.col-4 p{
+	font-size: 14px;
+}
+
+.rating .fa{
+	color: #ff523b;
+}
+.col-4:hover{
+	transform: translateY(-10px);
+}
+.col-3 h3{
+	font-style: normal;
+	font-weight: bold;
+}
+.testimonial{
+	padding-top:100px ;
+}
+.testimonial .col-3{
+	text-align: center;
+	padding: 40px 20px;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 1.0);
+	cursor: pointer;
+	transition: transform 0.5s ;
+}
+
+.testimonial .col-3 img{
+	padding-top: 20px;
+	border-radius: 50%;
+
+}
+.testimonial .col-3:hover{
+	transform: translateY(-10px);
+}
+
+.testimonial .col-3 h3{
+
+	font-weight: 600;
+	font-size: 16px;
+}
+.fa.fa-quote-left{
+	font-size: 34px;
+	color: #ff523b;
+}
+
+
+.brands{
+	margin: 100px auto;
+
+}
+.col-5{
+		flex-basis: 20%;
+		padding: 10px;
+		width: 160px;
+		height: 80px;
+		margin-bottom: 50px;
+
+}
+.col-5 img{
+	filter: grayscale(100%);
+}
+
+.col-5 img:hover{
+	filter: grayscale(0%);
+}
+
+.footer{
+	background: #000;
+	color: #8a8a8a;
+	font-size: 14px;
+	padding: 60px 0 20px;
+}
+.footer p{
+	color: #8a8a8a;
+}
+.footer h3{
+	color: #fff;
+	margin-bottom:20px ;
+}
+ul{
+	list-style-type: none;
+}
+.footer hr{
+	border: none;
+	background: #b5b5b5;
+	height: 1px;
+	margin: 20px 0;
+}
+
+.copywrite{
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+	text-align: center;
+}
+
+@media(max-width: 800px){
+	#tabs img{
+		margin-left: 10px;
+	}
+}
+
+/*Dropdown Button*/
+.dropbtn {
+  background:radial-gradient(#a6f77b,#2dbd6e);
+  border-radius: 21px;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background: green;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content option {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown option:hover {background-color: #ddd;}
+
+.show {display: block;}
